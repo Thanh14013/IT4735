@@ -1,0 +1,33 @@
+{
+  "name": "mysmarthome",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "scripts": {
+    "start": "expo start",
+    "prestart": "node scripts/update-ip.js",
+    "android": "expo start --android",
+    "preandroid": "node scripts/update-ip.js",
+    "ios": "expo start --ios",
+    "preios": "node scripts/update-ip.js",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "clsx": "^2.1.1",
+    "expo": "~54.0.29",
+    "expo-status-bar": "~3.0.9",
+    "lucide-react-native": "^0.556.0",
+    "nativewind": "^2.0.11",
+    "react": "19.1.0",
+    "react-native": "0.81.5",
+    "react-native-safe-area-context": "~5.6.0",
+    "react-native-svg": "15.12.1",
+    "tailwind-merge": "^3.4.0"
+  },
+  "devDependencies": {
+    "@types/react": "~19.1.0",
+    "babel-preset-expo": "^54.0.8",
+    "tailwindcss": "3.3.2",
+    "typescript": "~5.9.2"
+  },
+  "private": true
+}
